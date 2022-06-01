@@ -1,0 +1,127 @@
+*{ margin: 0;
+   padding: 0;}
+
+.body{
+    background-color: gainsboro;
+}
+/*inicio do menu*/
+.menu{
+    overflow: hidden;
+    background-size:  cover;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 85px; 
+    opacity: 0.6;
+    z-index:1080;
+    background-color: #000000;
+}
+.menu img{
+    position: relative;
+    float: left;
+    top: 5px;
+    height: 100px;
+    width: 200px;
+}
+
+.menu a{
+    float: right;
+/*    display: block;*/
+    color: white;
+    padding: 30px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: charis;
+    opacity: 0.9;
+}
+
+.menu a:hover{
+color: white;    
+}
+
+
+
+/*fim do menu**/
+
+
+#categorias{font-size: 80px; color: #000000;
+             text-align: center;
+             font-family: 'neon 80s';
+             text-align: center;}
+
+
+/*slide*/
+.carousel-inner .item img{margin-top:0px; 
+                          width: 100%; } /*fim*/
+
+
+#artistas{font-size: 80px; color: #000000;
+             text-align: center;
+             font-family: 'neon 80s';
+             text-align: center;}
+
+#imagem{
+    -webkit-filter:grayscale(0%);
+}
+#imagem:hover{opacity: 0.6;
+    -webkit-filter:grayscale(100%);
+    transition: 1s;}
+
+/*fim da div artista*/
+
+/*Inscreva-se para obter conteúdo*/
+.inscrever_cont{
+    position: relative;
+    bottom: 0;
+    background-color: #EEEEE0;
+    height: 160px; width: 100%;
+    margin-top: 10px;
+    padding-bottom: 20%;
+    
+}
+
+.inscrever_cont h2{
+    font-size: 50px; 
+    color: #000000;    
+    text-align: center;        
+    font-family: 'neon 80s';
+    text-align: center;
+}
+
+#divInsc{
+  background-color:#EEE9E9;
+  border:solid 2px #CDC9C9;
+  border-radius:10px;
+  width:300px;
+  height:32px;
+}
+
+#txtInsc{
+  float:left;
+  background-color:transparent;
+  padding-left:5px; 
+  font-size:18px;
+  border:none;
+  height:32px;
+  width:191px;
+}
+
+#btnInsc{
+  border:none;
+  float:left;
+  height:32px;
+  border-radius:0 8px 8px 0;
+  width:105px;
+  font-weight:bold;
+  background:#CDC9C9;
+}
+
+/*rodape*/
+.rodape{
+    position: relative;
+    bottom: 0;
+    background-color: black;
+    height: 160px; width: 100%;
+    margin-top: 10px;
+    
+}

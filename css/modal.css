@@ -1,0 +1,28 @@
+/*MODAL*/
+*{margin: 0;padding: 0;}
+.modal-logo {
+    
+   background-color: black;
+   height: 100px;
+   color:white !important;
+  }
+ .modal-logo img{
+    position: absolute;
+   
+    float: left;
+    height: 100px;
+    width: 200px;
+ }
+ .modal-logo p1{
+     margin-top:12px;
+     color: white;
+   font-size: 28pt;
+   float: right;
+padding:  10px;
+text-align: center;
+      
+ }
+ .modal-logo close{
+     float: right;
+ }
+ 
