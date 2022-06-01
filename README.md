@@ -1,7 +1,7 @@
 # SetMusic
 Site para cadastro de bandas e músicos para contratação ou trabalhos eventuais.
 
-Tecnologias: PHP/BOOTSTRAP/JAVASCRIP/MYSQL
+Tecnologias: PHP/BOOTSTRAP/JAVASCRIPT/MYSQL
 
 Autor: Erica Cristine Silva de Araujo
 
